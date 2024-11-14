@@ -1,0 +1,3 @@
+proc sort data=mydata;
+by id;
+run;
