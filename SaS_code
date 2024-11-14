@@ -1,3 +1,7 @@
 proc sort data=mydata;
 by id;
 run;
+
+data set= mydata;
+if id=123 then flag='yes';
+run;
